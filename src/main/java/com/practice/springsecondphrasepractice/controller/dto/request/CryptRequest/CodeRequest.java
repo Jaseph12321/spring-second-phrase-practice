@@ -1,0 +1,15 @@
+package com.practice.springsecondphrasepractice.controller.dto.request.CryptRequest;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class CodeRequest {
+    private String request;
+}
